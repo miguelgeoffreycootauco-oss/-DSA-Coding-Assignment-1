@@ -25,6 +25,8 @@ CSV_PATH = os.path.join(
 # --------------------------------------------------------------------------
 # Core binary search routines (work on any sorted list)
 # --------------------------------------------------------------------------
+
+### Same as the slides
 def binary_search(sorted_values, target):
     """Classic binary search. Returns an index of target, or -1 if absent."""
     low, high = 0, len(sorted_values) - 1
@@ -39,6 +41,7 @@ def binary_search(sorted_values, target):
     return -1
 
 
+###not in slides, but useful for finding all matches
 def lower_bound(sorted_values, target):
     """First index i where sorted_values[i] >= target."""
     low, high = 0, len(sorted_values)
@@ -51,6 +54,7 @@ def lower_bound(sorted_values, target):
     return low
 
 
+###not in slides, but useful for finding all matches
 def upper_bound(sorted_values, target):
     """First index i where sorted_values[i] > target."""
     low, high = 0, len(sorted_values)
