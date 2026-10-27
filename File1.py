@@ -14,7 +14,12 @@ just one arbitrary hit.
 
 import pandas as pd
 
-CSV_PATH = "Top_500_Movies_Ranked_by_Combined_Critics_and_Audience_Scores.csv"
+import os
+
+CSV_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "Top_500_Movies_Ranked_by_Combined_Critics_and_Audience_Scores.csv",
+)
 
 
 # --------------------------------------------------------------------------
