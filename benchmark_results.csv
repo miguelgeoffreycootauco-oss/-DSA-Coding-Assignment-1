@@ -1,0 +1,271 @@
+n,algorithm,case,metric,runs,mean_count,min_count,max_count,reference_count,note
+10,MergeSort,best,element_comparisons,1,15.0,15,15,15,Sorted ascending; verified minimum
+10,MergeSort,average_estimate,element_comparisons,30,22.4,18,25,,Mean of 30 seeded shuffles; seed=30+n
+10,MergeSort,worst,element_comparisons,1,25.0,25,25,25,Interleaved input; upper bound attained
+10,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+10,BinarySearch,average_successful,midpoint_probes,10,2.9,1,4,,Mean across all n records; repeated titles retain their weight
+10,BinarySearch,worst_unsuccessful,midpoint_probes,1,4.0,4,4,4,Absent target after largest title; verified maximum
+20,MergeSort,best,element_comparisons,1,40.0,40,40,40,Sorted ascending; verified minimum
+20,MergeSort,average_estimate,element_comparisons,30,62.7,57,67,,Mean of 30 seeded shuffles; seed=30+n
+20,MergeSort,worst,element_comparisons,1,69.0,69,69,69,Interleaved input; upper bound attained
+20,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+20,BinarySearch,average_successful,midpoint_probes,20,3.7,1,5,,Mean across all n records; repeated titles retain their weight
+20,BinarySearch,worst_unsuccessful,midpoint_probes,1,5.0,5,5,5,Absent target after largest title; verified maximum
+30,MergeSort,best,element_comparisons,1,71.0,71,71,71,Sorted ascending; verified minimum
+30,MergeSort,average_estimate,element_comparisons,30,112.33333333333333,101,117,,Mean of 30 seeded shuffles; seed=30+n
+30,MergeSort,worst,element_comparisons,1,119.0,119,119,119,Interleaved input; upper bound attained
+30,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+30,BinarySearch,average_successful,midpoint_probes,30,4.133333333333334,1,5,,Mean across all n records; repeated titles retain their weight
+30,BinarySearch,worst_unsuccessful,midpoint_probes,1,5.0,5,5,5,Absent target after largest title; verified maximum
+40,MergeSort,best,element_comparisons,1,100.0,100,100,100,Sorted ascending; verified minimum
+40,MergeSort,average_estimate,element_comparisons,30,165.0,158,171,,Mean of 30 seeded shuffles; seed=30+n
+40,MergeSort,worst,element_comparisons,1,177.0,177,177,177,Interleaved input; upper bound attained
+40,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+40,BinarySearch,average_successful,midpoint_probes,40,4.575,1,6,,Mean across all n records; repeated titles retain their weight
+40,BinarySearch,worst_unsuccessful,midpoint_probes,1,6.0,6,6,6,Absent target after largest title; verified maximum
+50,MergeSort,best,element_comparisons,1,133.0,133,133,133,Sorted ascending; verified minimum
+50,MergeSort,average_estimate,element_comparisons,30,222.36666666666667,217,230,,Mean of 30 seeded shuffles; seed=30+n
+50,MergeSort,worst,element_comparisons,1,237.0,237,237,237,Interleaved input; upper bound attained
+50,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+50,BinarySearch,average_successful,midpoint_probes,50,4.86,1,6,,Mean across all n records; repeated titles retain their weight
+50,BinarySearch,worst_unsuccessful,midpoint_probes,1,6.0,6,6,6,Absent target after largest title; verified maximum
+60,MergeSort,best,element_comparisons,1,172.0,172,172,172,Sorted ascending; verified minimum
+60,MergeSort,average_estimate,element_comparisons,30,280.8666666666667,274,289,,Mean of 30 seeded shuffles; seed=30+n
+60,MergeSort,worst,element_comparisons,1,297.0,297,297,297,Interleaved input; upper bound attained
+60,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+60,BinarySearch,average_successful,midpoint_probes,60,5.05,1,6,,Mean across all n records; repeated titles retain their weight
+60,BinarySearch,worst_unsuccessful,midpoint_probes,1,6.0,6,6,6,Absent target after largest title; verified maximum
+70,MergeSort,best,element_comparisons,1,205.0,205,205,205,Sorted ascending; verified minimum
+70,MergeSort,average_estimate,element_comparisons,30,342.43333333333334,335,351,,Mean of 30 seeded shuffles; seed=30+n
+70,MergeSort,worst,element_comparisons,1,363.0,363,363,363,Interleaved input; upper bound attained
+70,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+70,BinarySearch,average_successful,midpoint_probes,70,5.285714285714286,1,7,,Mean across all n records; repeated titles retain their weight
+70,BinarySearch,worst_unsuccessful,midpoint_probes,1,7.0,7,7,7,Absent target after largest title; verified maximum
+80,MergeSort,best,element_comparisons,1,240.0,240,240,240,Sorted ascending; verified minimum
+80,MergeSort,average_estimate,element_comparisons,30,410.1666666666667,397,418,,Mean of 30 seeded shuffles; seed=30+n
+80,MergeSort,worst,element_comparisons,1,433.0,433,433,433,Interleaved input; upper bound attained
+80,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+80,BinarySearch,average_successful,midpoint_probes,80,5.5,1,7,,Mean across all n records; repeated titles retain their weight
+80,BinarySearch,worst_unsuccessful,midpoint_probes,1,7.0,7,7,7,Absent target after largest title; verified maximum
+90,MergeSort,best,element_comparisons,1,275.0,275,275,275,Sorted ascending; verified minimum
+90,MergeSort,average_estimate,element_comparisons,30,472.96666666666664,466,484,,Mean of 30 seeded shuffles; seed=30+n
+90,MergeSort,worst,element_comparisons,1,503.0,503,503,503,Interleaved input; upper bound attained
+90,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+90,BinarySearch,average_successful,midpoint_probes,90,5.666666666666667,1,7,,Mean across all n records; repeated titles retain their weight
+90,BinarySearch,worst_unsuccessful,midpoint_probes,1,7.0,7,7,7,Absent target after largest title; verified maximum
+100,MergeSort,best,element_comparisons,1,316.0,316,316,316,Sorted ascending; verified minimum
+100,MergeSort,average_estimate,element_comparisons,30,541.4333333333333,528,553,,Mean of 30 seeded shuffles; seed=30+n
+100,MergeSort,worst,element_comparisons,1,573.0,573,573,573,Interleaved input; upper bound attained
+100,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+100,BinarySearch,average_successful,midpoint_probes,100,5.8,1,7,,Mean across all n records; repeated titles retain their weight
+100,BinarySearch,worst_unsuccessful,midpoint_probes,1,7.0,7,7,7,Absent target after largest title; verified maximum
+110,MergeSort,best,element_comparisons,1,357.0,357,357,357,Sorted ascending; verified minimum
+110,MergeSort,average_estimate,element_comparisons,30,608.0333333333333,596,620,,Mean of 30 seeded shuffles; seed=30+n
+110,MergeSort,worst,element_comparisons,1,643.0,643,643,643,Interleaved input; upper bound attained
+110,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+110,BinarySearch,average_successful,midpoint_probes,110,5.909090909090909,1,7,,Mean across all n records; repeated titles retain their weight
+110,BinarySearch,worst_unsuccessful,midpoint_probes,1,7.0,7,7,7,Absent target after largest title; verified maximum
+120,MergeSort,best,element_comparisons,1,404.0,404,404,404,Sorted ascending; verified minimum
+120,MergeSort,average_estimate,element_comparisons,30,680.6,664,693,,Mean of 30 seeded shuffles; seed=30+n
+120,MergeSort,worst,element_comparisons,1,713.0,713,713,713,Interleaved input; upper bound attained
+120,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+120,BinarySearch,average_successful,midpoint_probes,120,6.0,1,7,,Mean across all n records; repeated titles retain their weight
+120,BinarySearch,worst_unsuccessful,midpoint_probes,1,7.0,7,7,7,Absent target after largest title; verified maximum
+130,MergeSort,best,element_comparisons,1,451.0,451,451,451,Sorted ascending; verified minimum
+130,MergeSort,average_estimate,element_comparisons,30,750.7666666666667,734,764,,Mean of 30 seeded shuffles; seed=30+n
+130,MergeSort,worst,element_comparisons,1,785.0,785,785,785,Interleaved input; upper bound attained
+130,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+130,BinarySearch,average_successful,midpoint_probes,130,6.1,1,8,,Mean across all n records; repeated titles retain their weight
+130,BinarySearch,worst_unsuccessful,midpoint_probes,1,8.0,8,8,8,Absent target after largest title; verified maximum
+140,MergeSort,best,element_comparisons,1,480.0,480,480,480,Sorted ascending; verified minimum
+140,MergeSort,average_estimate,element_comparisons,30,825.3333333333334,812,840,,Mean of 30 seeded shuffles; seed=30+n
+140,MergeSort,worst,element_comparisons,1,865.0,865,865,865,Interleaved input; upper bound attained
+140,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+140,BinarySearch,average_successful,midpoint_probes,140,6.235714285714286,1,8,,Mean across all n records; repeated titles retain their weight
+140,BinarySearch,worst_unsuccessful,midpoint_probes,1,8.0,8,8,8,Absent target after largest title; verified maximum
+150,MergeSort,best,element_comparisons,1,515.0,515,515,515,Sorted ascending; verified minimum
+150,MergeSort,average_estimate,element_comparisons,30,901.2666666666667,887,916,,Mean of 30 seeded shuffles; seed=30+n
+150,MergeSort,worst,element_comparisons,1,945.0,945,945,945,Interleaved input; upper bound attained
+150,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+150,BinarySearch,average_successful,midpoint_probes,150,6.3533333333333335,1,8,,Mean across all n records; repeated titles retain their weight
+150,BinarySearch,worst_unsuccessful,midpoint_probes,1,8.0,8,8,8,Absent target after largest title; verified maximum
+160,MergeSort,best,element_comparisons,1,560.0,560,560,560,Sorted ascending; verified minimum
+160,MergeSort,average_estimate,element_comparisons,30,974.8333333333334,949,989,,Mean of 30 seeded shuffles; seed=30+n
+160,MergeSort,worst,element_comparisons,1,1025.0,1025,1025,1025,Interleaved input; upper bound attained
+160,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+160,BinarySearch,average_successful,midpoint_probes,160,6.45625,1,8,,Mean across all n records; repeated titles retain their weight
+160,BinarySearch,worst_unsuccessful,midpoint_probes,1,8.0,8,8,8,Absent target after largest title; verified maximum
+170,MergeSort,best,element_comparisons,1,595.0,595,595,595,Sorted ascending; verified minimum
+170,MergeSort,average_estimate,element_comparisons,30,1049.7333333333333,1033,1066,,Mean of 30 seeded shuffles; seed=30+n
+170,MergeSort,worst,element_comparisons,1,1105.0,1105,1105,1105,Interleaved input; upper bound attained
+170,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+170,BinarySearch,average_successful,midpoint_probes,170,6.547058823529412,1,8,,Mean across all n records; repeated titles retain their weight
+170,BinarySearch,worst_unsuccessful,midpoint_probes,1,8.0,8,8,8,Absent target after largest title; verified maximum
+180,MergeSort,best,element_comparisons,1,640.0,640,640,640,Sorted ascending; verified minimum
+180,MergeSort,average_estimate,element_comparisons,30,1126.8666666666666,1110,1146,,Mean of 30 seeded shuffles; seed=30+n
+180,MergeSort,worst,element_comparisons,1,1185.0,1185,1185,1185,Interleaved input; upper bound attained
+180,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+180,BinarySearch,average_successful,midpoint_probes,180,6.627777777777778,1,8,,Mean across all n records; repeated titles retain their weight
+180,BinarySearch,worst_unsuccessful,midpoint_probes,1,8.0,8,8,8,Absent target after largest title; verified maximum
+190,MergeSort,best,element_comparisons,1,691.0,691,691,691,Sorted ascending; verified minimum
+190,MergeSort,average_estimate,element_comparisons,30,1200.9,1188,1221,,Mean of 30 seeded shuffles; seed=30+n
+190,MergeSort,worst,element_comparisons,1,1265.0,1265,1265,1265,Interleaved input; upper bound attained
+190,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+190,BinarySearch,average_successful,midpoint_probes,190,6.7,1,8,,Mean across all n records; repeated titles retain their weight
+190,BinarySearch,worst_unsuccessful,midpoint_probes,1,8.0,8,8,8,Absent target after largest title; verified maximum
+200,MergeSort,best,element_comparisons,1,732.0,732,732,732,Sorted ascending; verified minimum
+200,MergeSort,average_estimate,element_comparisons,30,1281.2666666666667,1255,1296,,Mean of 30 seeded shuffles; seed=30+n
+200,MergeSort,worst,element_comparisons,1,1345.0,1345,1345,1345,Interleaved input; upper bound attained
+200,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+200,BinarySearch,average_successful,midpoint_probes,200,6.765,1,8,,Mean across all n records; repeated titles retain their weight
+200,BinarySearch,worst_unsuccessful,midpoint_probes,1,8.0,8,8,8,Absent target after largest title; verified maximum
+210,MergeSort,best,element_comparisons,1,775.0,775,775,775,Sorted ascending; verified minimum
+210,MergeSort,average_estimate,element_comparisons,30,1357.5333333333333,1332,1376,,Mean of 30 seeded shuffles; seed=30+n
+210,MergeSort,worst,element_comparisons,1,1425.0,1425,1425,1425,Interleaved input; upper bound attained
+210,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+210,BinarySearch,average_successful,midpoint_probes,210,6.8238095238095235,1,8,,Mean across all n records; repeated titles retain their weight
+210,BinarySearch,worst_unsuccessful,midpoint_probes,1,8.0,8,8,8,Absent target after largest title; verified maximum
+220,MergeSort,best,element_comparisons,1,824.0,824,824,824,Sorted ascending; verified minimum
+220,MergeSort,average_estimate,element_comparisons,30,1438.3333333333333,1419,1455,,Mean of 30 seeded shuffles; seed=30+n
+220,MergeSort,worst,element_comparisons,1,1505.0,1505,1505,1505,Interleaved input; upper bound attained
+220,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+220,BinarySearch,average_successful,midpoint_probes,220,6.877272727272727,1,8,,Mean across all n records; repeated titles retain their weight
+220,BinarySearch,worst_unsuccessful,midpoint_probes,1,8.0,8,8,8,Absent target after largest title; verified maximum
+230,MergeSort,best,element_comparisons,1,873.0,873,873,873,Sorted ascending; verified minimum
+230,MergeSort,average_estimate,element_comparisons,30,1516.5666666666666,1499,1533,,Mean of 30 seeded shuffles; seed=30+n
+230,MergeSort,worst,element_comparisons,1,1585.0,1585,1585,1585,Interleaved input; upper bound attained
+230,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+230,BinarySearch,average_successful,midpoint_probes,230,6.926086956521739,1,8,,Mean across all n records; repeated titles retain their weight
+230,BinarySearch,worst_unsuccessful,midpoint_probes,1,8.0,8,8,8,Absent target after largest title; verified maximum
+240,MergeSort,best,element_comparisons,1,928.0,928,928,928,Sorted ascending; verified minimum
+240,MergeSort,average_estimate,element_comparisons,30,1597.0333333333333,1576,1616,,Mean of 30 seeded shuffles; seed=30+n
+240,MergeSort,worst,element_comparisons,1,1665.0,1665,1665,1665,Interleaved input; upper bound attained
+240,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+240,BinarySearch,average_successful,midpoint_probes,240,6.970833333333333,1,8,,Mean across all n records; repeated titles retain their weight
+240,BinarySearch,worst_unsuccessful,midpoint_probes,1,8.0,8,8,8,Absent target after largest title; verified maximum
+250,MergeSort,best,element_comparisons,1,983.0,983,983,983,Sorted ascending; verified minimum
+250,MergeSort,average_estimate,element_comparisons,30,1678.6666666666667,1659,1699,,Mean of 30 seeded shuffles; seed=30+n
+250,MergeSort,worst,element_comparisons,1,1745.0,1745,1745,1745,Interleaved input; upper bound attained
+250,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+250,BinarySearch,average_successful,midpoint_probes,250,7.012,1,8,,Mean across all n records; repeated titles retain their weight
+250,BinarySearch,worst_unsuccessful,midpoint_probes,1,8.0,8,8,8,Absent target after largest title; verified maximum
+260,MergeSort,best,element_comparisons,1,1032.0,1032,1032,1032,Sorted ascending; verified minimum
+260,MergeSort,average_estimate,element_comparisons,30,1761.2333333333333,1740,1779,,Mean of 30 seeded shuffles; seed=30+n
+260,MergeSort,worst,element_comparisons,1,1829.0,1829,1829,1829,Interleaved input; upper bound attained
+260,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+260,BinarySearch,average_successful,midpoint_probes,260,7.069230769230769,1,9,,Mean across all n records; repeated titles retain their weight
+260,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+270,MergeSort,best,element_comparisons,1,1063.0,1063,1063,1063,Sorted ascending; verified minimum
+270,MergeSort,average_estimate,element_comparisons,30,1844.6333333333334,1812,1872,,Mean of 30 seeded shuffles; seed=30+n
+270,MergeSort,worst,element_comparisons,1,1919.0,1919,1919,1919,Interleaved input; upper bound attained
+270,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+270,BinarySearch,average_successful,midpoint_probes,270,7.140740740740741,1,9,,Mean across all n records; repeated titles retain their weight
+270,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+280,MergeSort,best,element_comparisons,1,1100.0,1100,1100,1100,Sorted ascending; verified minimum
+280,MergeSort,average_estimate,element_comparisons,30,1928.3333333333333,1915,1941,,Mean of 30 seeded shuffles; seed=30+n
+280,MergeSort,worst,element_comparisons,1,2009.0,2009,2009,2009,Interleaved input; upper bound attained
+280,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+280,BinarySearch,average_successful,midpoint_probes,280,7.207142857142857,1,9,,Mean across all n records; repeated titles retain their weight
+280,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+290,MergeSort,best,element_comparisons,1,1141.0,1141,1141,1141,Sorted ascending; verified minimum
+290,MergeSort,average_estimate,element_comparisons,30,2015.0,1990,2032,,Mean of 30 seeded shuffles; seed=30+n
+290,MergeSort,worst,element_comparisons,1,2099.0,2099,2099,2099,Interleaved input; upper bound attained
+290,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+290,BinarySearch,average_successful,midpoint_probes,290,7.268965517241379,1,9,,Mean across all n records; repeated titles retain their weight
+290,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+300,MergeSort,best,element_comparisons,1,1180.0,1180,1180,1180,Sorted ascending; verified minimum
+300,MergeSort,average_estimate,element_comparisons,30,2094.9333333333334,2073,2108,,Mean of 30 seeded shuffles; seed=30+n
+300,MergeSort,worst,element_comparisons,1,2189.0,2189,2189,2189,Interleaved input; upper bound attained
+300,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+300,BinarySearch,average_successful,midpoint_probes,300,7.326666666666667,1,9,,Mean across all n records; repeated titles retain their weight
+300,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+310,MergeSort,best,element_comparisons,1,1225.0,1225,1225,1225,Sorted ascending; verified minimum
+310,MergeSort,average_estimate,element_comparisons,30,2181.8,2162,2197,,Mean of 30 seeded shuffles; seed=30+n
+310,MergeSort,worst,element_comparisons,1,2279.0,2279,2279,2279,Interleaved input; upper bound attained
+310,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+310,BinarySearch,average_successful,midpoint_probes,310,7.380645161290323,1,9,,Mean across all n records; repeated titles retain their weight
+310,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+320,MergeSort,best,element_comparisons,1,1280.0,1280,1280,1280,Sorted ascending; verified minimum
+320,MergeSort,average_estimate,element_comparisons,30,2267.8,2249,2291,,Mean of 30 seeded shuffles; seed=30+n
+320,MergeSort,worst,element_comparisons,1,2369.0,2369,2369,2369,Interleaved input; upper bound attained
+320,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+320,BinarySearch,average_successful,midpoint_probes,320,7.43125,1,9,,Mean across all n records; repeated titles retain their weight
+320,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+330,MergeSort,best,element_comparisons,1,1315.0,1315,1315,1315,Sorted ascending; verified minimum
+330,MergeSort,average_estimate,element_comparisons,30,2351.233333333333,2337,2370,,Mean of 30 seeded shuffles; seed=30+n
+330,MergeSort,worst,element_comparisons,1,2459.0,2459,2459,2459,Interleaved input; upper bound attained
+330,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+330,BinarySearch,average_successful,midpoint_probes,330,7.4787878787878785,1,9,,Mean across all n records; repeated titles retain their weight
+330,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+340,MergeSort,best,element_comparisons,1,1360.0,1360,1360,1360,Sorted ascending; verified minimum
+340,MergeSort,average_estimate,element_comparisons,30,2436.1,2416,2461,,Mean of 30 seeded shuffles; seed=30+n
+340,MergeSort,worst,element_comparisons,1,2549.0,2549,2549,2549,Interleaved input; upper bound attained
+340,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+340,BinarySearch,average_successful,midpoint_probes,340,7.523529411764706,1,9,,Mean across all n records; repeated titles retain their weight
+340,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+350,MergeSort,best,element_comparisons,1,1411.0,1411,1411,1411,Sorted ascending; verified minimum
+350,MergeSort,average_estimate,element_comparisons,30,2528.266666666667,2502,2558,,Mean of 30 seeded shuffles; seed=30+n
+350,MergeSort,worst,element_comparisons,1,2639.0,2639,2639,2639,Interleaved input; upper bound attained
+350,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+350,BinarySearch,average_successful,midpoint_probes,350,7.565714285714286,1,9,,Mean across all n records; repeated titles retain their weight
+350,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+360,MergeSort,best,element_comparisons,1,1460.0,1460,1460,1460,Sorted ascending; verified minimum
+360,MergeSort,average_estimate,element_comparisons,30,2609.5,2580,2638,,Mean of 30 seeded shuffles; seed=30+n
+360,MergeSort,worst,element_comparisons,1,2729.0,2729,2729,2729,Interleaved input; upper bound attained
+360,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+360,BinarySearch,average_successful,midpoint_probes,360,7.605555555555555,1,9,,Mean across all n records; repeated titles retain their weight
+360,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+370,MergeSort,best,element_comparisons,1,1513.0,1513,1513,1513,Sorted ascending; verified minimum
+370,MergeSort,average_estimate,element_comparisons,30,2697.4333333333334,2671,2728,,Mean of 30 seeded shuffles; seed=30+n
+370,MergeSort,worst,element_comparisons,1,2819.0,2819,2819,2819,Interleaved input; upper bound attained
+370,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+370,BinarySearch,average_successful,midpoint_probes,370,7.643243243243243,1,9,,Mean across all n records; repeated titles retain their weight
+370,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+380,MergeSort,best,element_comparisons,1,1572.0,1572,1572,1572,Sorted ascending; verified minimum
+380,MergeSort,average_estimate,element_comparisons,30,2787.633333333333,2769,2803,,Mean of 30 seeded shuffles; seed=30+n
+380,MergeSort,worst,element_comparisons,1,2909.0,2909,2909,2909,Interleaved input; upper bound attained
+380,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+380,BinarySearch,average_successful,midpoint_probes,380,7.678947368421053,1,9,,Mean across all n records; repeated titles retain their weight
+380,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+390,MergeSort,best,element_comparisons,1,1619.0,1619,1619,1619,Sorted ascending; verified minimum
+390,MergeSort,average_estimate,element_comparisons,30,2876.266666666667,2857,2900,,Mean of 30 seeded shuffles; seed=30+n
+390,MergeSort,worst,element_comparisons,1,2999.0,2999,2999,2999,Interleaved input; upper bound attained
+390,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+390,BinarySearch,average_successful,midpoint_probes,390,7.71025641025641,1,9,,Mean across all n records; repeated titles retain their weight
+390,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+400,MergeSort,best,element_comparisons,1,1664.0,1664,1664,1664,Sorted ascending; verified minimum
+400,MergeSort,average_estimate,element_comparisons,30,2957.8,2935,2984,,Mean of 30 seeded shuffles; seed=30+n
+400,MergeSort,worst,element_comparisons,1,3089.0,3089,3089,3089,Interleaved input; upper bound attained
+400,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+400,BinarySearch,average_successful,midpoint_probes,400,7.7425,1,9,,Mean across all n records; repeated titles retain their weight
+400,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+410,MergeSort,best,element_comparisons,1,1709.0,1709,1709,1709,Sorted ascending; verified minimum
+410,MergeSort,average_estimate,element_comparisons,30,3050.3,3018,3072,,Mean of 30 seeded shuffles; seed=30+n
+410,MergeSort,worst,element_comparisons,1,3179.0,3179,3179,3179,Interleaved input; upper bound attained
+410,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+410,BinarySearch,average_successful,midpoint_probes,410,7.770731707317073,1,9,,Mean across all n records; repeated titles retain their weight
+410,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+420,MergeSort,best,element_comparisons,1,1760.0,1760,1760,1760,Sorted ascending; verified minimum
+420,MergeSort,average_estimate,element_comparisons,30,3141.1666666666665,3121,3160,,Mean of 30 seeded shuffles; seed=30+n
+420,MergeSort,worst,element_comparisons,1,3269.0,3269,3269,3269,Interleaved input; upper bound attained
+420,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+420,BinarySearch,average_successful,midpoint_probes,420,7.802380952380952,1,9,,Mean across all n records; repeated titles retain their weight
+420,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+430,MergeSort,best,element_comparisons,1,1811.0,1811,1811,1811,Sorted ascending; verified minimum
+430,MergeSort,average_estimate,element_comparisons,30,3222.9666666666667,3199,3241,,Mean of 30 seeded shuffles; seed=30+n
+430,MergeSort,worst,element_comparisons,1,3359.0,3359,3359,3359,Interleaved input; upper bound attained
+430,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+430,BinarySearch,average_successful,midpoint_probes,430,7.830232558139535,1,9,,Mean across all n records; repeated titles retain their weight
+430,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+440,MergeSort,best,element_comparisons,1,1868.0,1868,1868,1868,Sorted ascending; verified minimum
+440,MergeSort,average_estimate,element_comparisons,30,3318.733333333333,3290,3339,,Mean of 30 seeded shuffles; seed=30+n
+440,MergeSort,worst,element_comparisons,1,3449.0,3449,3449,3449,Interleaved input; upper bound attained
+440,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+440,BinarySearch,average_successful,midpoint_probes,440,7.8568181818181815,1,9,,Mean across all n records; repeated titles retain their weight
+440,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
+449,MergeSort,best,element_comparisons,1,1923.0,1923,1923,1923,Sorted ascending; verified minimum
+449,MergeSort,average_estimate,element_comparisons,30,3398.633333333333,3367,3418,,Mean of 30 seeded shuffles; seed=30+n
+449,MergeSort,worst,element_comparisons,1,3530.0,3530,3530,3530,Interleaved input; upper bound attained
+449,BinarySearch,best,midpoint_probes,1,1.0,1,1,1,Target is the first midpoint
+449,BinarySearch,average_successful,midpoint_probes,449,7.877505567928731,1,9,,Mean across all n records; repeated titles retain their weight
+449,BinarySearch,worst_unsuccessful,midpoint_probes,1,9.0,9,9,9,Absent target after largest title; verified maximum
