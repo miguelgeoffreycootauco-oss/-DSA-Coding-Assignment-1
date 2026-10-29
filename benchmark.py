@@ -13,7 +13,6 @@ OUTPUT = Path(__file__).with_name('benchmark_results.csv')
 
 
 def worst_order(values):
-    # Arrange sorted values to interleave at each merge 
 
     if len(values) <= 1:
         return values[:]
