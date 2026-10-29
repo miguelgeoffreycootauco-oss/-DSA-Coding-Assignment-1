@@ -1,15 +1,3 @@
-### Binary Search with Step Counter
-
-"""
-Binary search over the Top 500 Movies CSV.
-
-Binary search only works on SORTED data, so each search first makes sure the
-column is sorted (Rank already is; Title and Year are sorted on demand).
-
-Because Title and Year can repeat (e.g. remakes), the search uses
-lower-bound / upper-bound variants so it returns ALL matching rows, not
-just one arbitrary hit.
-"""
 
 import pandas as pd
 
@@ -17,14 +5,7 @@ import os
 
 CSV_PATH = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
-    "Top_500_Movies_Ranked_by_Combined_Critics_and_Audience_Scores.csv",
-)
-
-
-# --------------------------------------------------------------------------
-# Core binary search routines (work on any sorted list)
-# --------------------------------------------------------------------------
-
+    
 ### Same as the slides
 def binary_search(sorted_values, target):
     """Classic binary search. Returns an index of target, or -1 if absent."""
@@ -59,12 +40,7 @@ def upper_bound(sorted_values, target):
             low = mid + 1
         else:
             high = mid
-    return low
-
-
-# --------------------------------------------------------------------------
-# Search helpers for the movie data
-# --------------------------------------------------------------------------
+    return 
 def load_movies(path=CSV_PATH):
     return pd.read_csv(path)
 
@@ -98,9 +74,7 @@ def search_by_year_range(df, start_year, end_year):
     return sorted_df.iloc[lo:hi]
 
 
-# --------------------------------------------------------------------------
-# Demo
-# --------------------------------------------------------------------------
+### Demo
 if __name__ == "__main__":
     movies = load_movies()
     show = ["Rank", "Title", "Year", "Director", "IMDb_10", "Custom_Score"]
