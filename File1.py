@@ -1,6 +1,5 @@
 ### Binary Search with Step Counter
 
-### Claude generated code, still needs to be fixed
 """
 Binary search over the Top 500 Movies CSV.
 
@@ -40,8 +39,6 @@ def binary_search(sorted_values, target):
             high = mid - 1
     return -1
 
-
-###not in slides, but useful for finding all matches
 def lower_bound(sorted_values, target):
     """First index i where sorted_values[i] >= target."""
     low, high = 0, len(sorted_values)
@@ -53,8 +50,6 @@ def lower_bound(sorted_values, target):
             high = mid
     return low
 
-
-###not in slides, but useful for finding all matches
 def upper_bound(sorted_values, target):
     """First index i where sorted_values[i] > target."""
     low, high = 0, len(sorted_values)
